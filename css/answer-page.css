@@ -1,0 +1,16 @@
+body {
+  text-decoration: none;
+}
+
+.container {
+  padding:0 15px;
+  margin: 0 auto;
+}
+
+.answer-area {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+}
