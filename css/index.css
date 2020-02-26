@@ -1,0 +1,144 @@
+body {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container {
+  padding:0 15px;
+  margin: 0 auto;
+  width: 1170px;
+}
+
+
+/* 以下top-area */
+/* ---------------- */
+
+.top-area {
+  /* background-color: black; */
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#title {
+  padding-top: 50px;
+}
+
+.top-area h1 {
+  color: red;
+  font-size: 100px;
+  font-family: 'Sacramento', cursive;
+  margin-bottom: 10px;
+}
+
+.heading {
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+  width: 700px;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.9);
+  font-size: 35px;
+  font-family: 'Yu Gothic';
+  width: 60%;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.heading:hover {
+  background-color: rgba(255, 0, 0, 1.0);
+}
+
+.buruburu1 {
+  animation: rumble 0.12s linear infinite;
+}
+
+@keyframes rumble{
+	0%	{transform:rotate(0deg)	translate(0,0);}
+	12.5%	{transform:rotate(0.4deg)	translate(1px,-1px);}
+	25%	{transform:rotate(0.8deg)	translate(0px,1px);}
+	37.5%	{transform:rotate(0.4deg)	translate(-1px,0);}
+	50%	{transform:rotate(0deg)	translate(0,0);}
+	62.5%	{transform:rotate(-0.4deg)	translate(1px,0);}
+	75%	{transform:rotate(-0.8deg)	translate(0,1px);}
+	87.5%	{transform:rotate(-0.4deg)	translate(-1px,-1px);}
+	100%	{transform:rotate(0deg)	translate(0,0);}
+}
+
+.click {
+  /* position: absolute; */
+  display: block;
+  margin: 0 auto;
+  /* top: 68%;
+  left: 74.5%; */
+}
+
+/* 以下quiz-area
+--------------- */
+
+.quiz-area {
+  height: 400px;
+  margin-bottom: 110px;
+}
+
+.center {
+  text-align: center;
+}
+
+.buruburu2:hover {
+  animation: rumble 0.12s linear infinite;
+}
+
+.quiz-contents {
+  margin-top: 30px;
+}
+
+.contents {
+  float: left;
+  height: 150px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-link {
+  padding: 8px 24px;
+  background-color: blue;
+  opacity: 0.9;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-link:hover {
+  opacity: 1;
+}
+
+.answer {
+  display: none;
+}
+
+/* 以下footer
+--------------- */
+
+footer {
+  /* margin-top: 100px;
+  /* border-top: 1px solid grey; */
+  height: 50px;
+  text-align: center;
+  background-color: grey;
+}
+
+#copy {
+  font-size: 12px;
+  opacity: 0.5;
+  line-height: 50px;
+}
+
+
+
